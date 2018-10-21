@@ -13,6 +13,7 @@
       pip install jupyter
       pip install numpy
       pip install scipy
+      pip install matplotlib
       ```
 4. Run notebook
       ```Shell
