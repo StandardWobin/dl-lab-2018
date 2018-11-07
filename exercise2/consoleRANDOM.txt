@@ -1,0 +1,58 @@
+rain of convolutional NN with 10 filters, learning rate 0.0003919272248593786, epochs 12, batchsize76, using the cpu.
+2018-11-07 19:38:16.735575: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060 3GB, pci bus id: 0000:01:00.0)
+time needed: 1.7228779792785645
+*********************************
+LOS ATM 0.9114583333333334
+*********************************
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Train of convolutional NN with 62 filters, learning rate 0.004613112924575894, epochs 12, batchsize18, using the cpu.
+2018-11-07 19:38:25.108067: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060 3GB, pci bus id: 0000:01:00.0)
+time needed: 3.345583438873291
+*********************************
+LOS ATM 0.733974358974359
+*********************************
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Train of convolutional NN with 31 filters, learning rate 0.032068713360601776, epochs 12, batchsize61, using the cpu.
+2018-11-07 19:39:08.941990: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060 3GB, pci bus id: 0000:01:00.0)
+time needed: 4.299168109893799
+*********************************
+LOS ATM 0.6092748397435898
+*********************************
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Train of convolutional NN with 34 filters, learning rate 0.05569715382751304, epochs 12, batchsize24, using the cpu.
+2018-11-07 19:39:31.593906: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060 3GB, pci bus id: 0000:01:00.0)
+time needed: 2.048330783843994
+*********************************
+LOS ATM 0.8922275641025641
+*********************************
+
+
+Best found configuration: {'batch_size': 114, 'size_filters': 5, 'learning_rate': 0.05163464684366569, 'num_filters': 13}
+
+
+
+
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+
+
+
+Train of convolutional NN with 13 filters, learning rate 0.05163464684366569, epochs 100, batchsize114, using the cpu.
+2018-11-07 19:39:55.172859: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060 3GB, pci bus id: 0000:01:00.0)
+time needed: 22.78581714630127
+0.054387019230769273
+
+
+haensser@tfpool37:~/Schreibtisch/DL/venv3$ 
+
